@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_03_154637_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_03_154637_create_categories_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,7 @@
       <updated>1575310297152</updated>
       <workItem from="1575310311373" duration="6838000" />
       <workItem from="1575318175330" duration="1842000" />
-      <workItem from="1575335832001" duration="16762000" />
+      <workItem from="1575335832001" duration="19190000" />
     </task>
     <servers />
   </component>
@@ -174,10 +175,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575401800343">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/51.27.1309.741@51.27.1309.741" timestamp="1575401800343" />
     <state x="402" y="272" width="596" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1" timestamp="1575392599059">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="402" y="272" width="596" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1/51.27.1309.741@51.27.1309.741" timestamp="1575392599059" />
+    <state x="352" y="210" width="697" height="373" key="NewPhpClassDialog" timestamp="1575401741616">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="352" y="210" width="697" height="373" key="NewPhpClassDialog/51.27.1309.741@51.27.1309.741" timestamp="1575401741616" />
     <state x="194" y="31" key="SettingsEditor" timestamp="1575310692849">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
