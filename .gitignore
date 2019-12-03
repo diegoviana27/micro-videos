@@ -6,10 +6,12 @@
 composer.lock
 .env
 .idea
+.idea/workspace.xml
 _ide_helper.php
 _ide_helper_models.php
 .env.backup
 .phpunit.result.cache
+
 Homestead.json
 Homestead.yaml
 npm-debug.log
