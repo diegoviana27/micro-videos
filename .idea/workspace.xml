@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.docker/app/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/app/.env.testing" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/entrypoint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudbuild.prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.prod.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +217,7 @@
       <workItem from="1576264862103" duration="89000" />
       <workItem from="1576265108388" duration="2137000" />
       <workItem from="1576500733699" duration="10116000" />
-      <workItem from="1576594581678" duration="15142000" />
+      <workItem from="1576594581678" duration="15577000" />
     </task>
     <servers />
   </component>
@@ -278,22 +273,22 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1576270095554" />
-    <state width="1263" height="129" key="GridCell.Tab.0.bottom" timestamp="1576618754175">
+    <state width="1263" height="129" key="GridCell.Tab.0.bottom" timestamp="1576619045306">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576618754175" />
-    <state width="1263" height="129" key="GridCell.Tab.0.center" timestamp="1576618754173">
+    <state width="1263" height="129" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576619045306" />
+    <state width="1263" height="129" key="GridCell.Tab.0.center" timestamp="1576619045305">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1576618754173" />
-    <state width="1263" height="129" key="GridCell.Tab.0.left" timestamp="1576618754173">
+    <state width="1263" height="129" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1576619045305" />
+    <state width="1263" height="129" key="GridCell.Tab.0.left" timestamp="1576619045305">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1576618754173" />
-    <state width="1263" height="129" key="GridCell.Tab.0.right" timestamp="1576618754174">
+    <state width="1263" height="129" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1576619045305" />
+    <state width="1263" height="129" key="GridCell.Tab.0.right" timestamp="1576619045305">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1576618754174" />
+    <state width="1263" height="129" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1576619045305" />
     <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576527235863">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
