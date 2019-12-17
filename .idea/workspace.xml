@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docker/app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/app/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Genre.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Genre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="micro-videos_app:latest">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
@@ -128,24 +134,63 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/seeds" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.docker/app" />
       <recent name="$PROJECT_DIR$/database/seeds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Unit/Models" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration name="CategoryTest.testCreate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\CategoryTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Models/CategoryTest.php" method="testCreate" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="CategoryTest.testDelete" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\CategoryTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Models/CategoryTest.php" method="testDelete" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenreTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\GenreTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Models/GenreTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenreTest.testCreate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\GenreTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Models/GenreTest.php" method="testCreate" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenreTest.testDelete" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Models\GenreTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Models/GenreTest.php" method="testDelete" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="/opt/project/phpunit.xml" scope="XML" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.GenreTest (1)" />
+      <item itemvalue="PHPUnit.GenreTest.testDelete" />
+      <item itemvalue="PHPUnit.CategoryTest.testDelete" />
+      <item itemvalue="PHPUnit.CategoryTest.testCreate" />
+      <item itemvalue="PHPUnit.GenreTest.testCreate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.CategoryTest.testCreate" />
+        <item itemvalue="PHPUnit.GenreTest.testCreate" />
+        <item itemvalue="PHPUnit.CategoryTest.testDelete" />
+        <item itemvalue="PHPUnit.GenreTest.testDelete" />
+        <item itemvalue="PHPUnit.GenreTest (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -171,7 +216,14 @@
       <updated>1575310297152</updated>
       <workItem from="1575310311373" duration="6838000" />
       <workItem from="1575318175330" duration="1842000" />
-      <workItem from="1575335832001" duration="21674000" />
+      <workItem from="1575335832001" duration="22231000" />
+      <workItem from="1575914872087" duration="5588000" />
+      <workItem from="1576153161644" duration="651000" />
+      <workItem from="1576261035080" duration="3713000" />
+      <workItem from="1576264862103" duration="89000" />
+      <workItem from="1576265108388" duration="2137000" />
+      <workItem from="1576500733699" duration="10116000" />
+      <workItem from="1576594581678" duration="4767000" />
     </task>
     <servers />
   </component>
@@ -179,25 +231,101 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575402591876">
+    <state x="288" y="54" width="824" height="684" key="#CLI_Interpreters" timestamp="1576503262090">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/51.27.1309.741@51.27.1309.741" timestamp="1575402591876" />
+    <state x="288" y="54" width="824" height="684" key="#CLI_Interpreters/51.27.1309.741@51.27.1309.741" timestamp="1576503262090" />
+    <state x="332" y="27" width="912" height="741" key="#CategoryTest.testFillableAttribute" timestamp="1576503140110">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="332" y="27" width="912" height="741" key="#CategoryTest.testFillableAttribute/51.27.1309.741@51.27.1309.741" timestamp="1576503140110" />
+    <state x="454" y="235" width="618" height="329" key="#Docker" timestamp="1576501573797">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="454" y="235" width="618" height="329" key="#Docker/51.27.1309.741@51.27.1309.741" timestamp="1576501573797" />
+    <state x="454" y="255" width="472" height="329" key="#Docker2" timestamp="1576501730223">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="454" y="255" width="472" height="329" key="#Docker2/51.27.1309.741@51.27.1309.741" timestamp="1576501730223" />
+    <state x="256" y="65" width="800" height="677" key="#Links" timestamp="1576503363272">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="256" y="65" width="800" height="677" key="#Links/51.27.1309.741@51.27.1309.741" timestamp="1576503363272" />
+    <state x="352" y="27" width="700" height="741" key="#PHP" timestamp="1576503135985">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="352" y="27" width="700" height="741" key="#PHP/51.27.1309.741@51.27.1309.741" timestamp="1576503135985" />
+    <state x="163" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576504119100">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="163" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1309.741@51.27.1309.741" timestamp="1576504119100" />
+    <state x="389" y="202" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576263812364">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="389" y="202" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser/51.27.1309.741@51.27.1309.741" timestamp="1576263812364" />
+    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576597862155">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/51.27.1309.741@51.27.1309.741" timestamp="1576597862155" />
     <state x="402" y="272" width="596" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1" timestamp="1575392599059">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="402" y="272" width="596" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1/51.27.1309.741@51.27.1309.741" timestamp="1575392599059" />
+    <state x="332" y="44" width="737" height="704" key="#phpunit.xml" timestamp="1576269808202">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="332" y="44" width="737" height="704" key="#phpunit.xml/51.27.1309.741@51.27.1309.741" timestamp="1576269808202" />
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576270095554">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1576270095554" />
+    <state width="1263" height="229" key="GridCell.Tab.0.bottom" timestamp="1576599404237">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="229" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576599404237" />
+    <state width="1263" height="229" key="GridCell.Tab.0.center" timestamp="1576599404237">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="229" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1576599404237" />
+    <state width="1263" height="229" key="GridCell.Tab.0.left" timestamp="1576599404236">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="229" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1576599404236" />
+    <state width="1263" height="229" key="GridCell.Tab.0.right" timestamp="1576599404237">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="229" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1576599404237" />
+    <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576527235863">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="219" key="GridCell.Tab.1.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576527235863" />
+    <state width="1263" height="219" key="GridCell.Tab.1.center" timestamp="1576527235861">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="219" key="GridCell.Tab.1.center/51.27.1309.741@51.27.1309.741" timestamp="1576527235861" />
+    <state width="1263" height="219" key="GridCell.Tab.1.left" timestamp="1576527235859">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="219" key="GridCell.Tab.1.left/51.27.1309.741@51.27.1309.741" timestamp="1576527235859" />
+    <state width="1263" height="219" key="GridCell.Tab.1.right" timestamp="1576527235861">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="219" key="GridCell.Tab.1.right/51.27.1309.741@51.27.1309.741" timestamp="1576527235861" />
     <state x="352" y="210" width="697" height="373" key="NewPhpClassDialog" timestamp="1575401741616">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="352" y="210" width="697" height="373" key="NewPhpClassDialog/51.27.1309.741@51.27.1309.741" timestamp="1575401741616" />
-    <state x="194" y="31" key="SettingsEditor" timestamp="1575310692849">
+    <state x="51" y="30" key="SettingsEditor" timestamp="1576503499459">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="194" y="31" key="SettingsEditor/51.27.1309.741@51.27.1309.741" timestamp="1575310692849" />
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1575335889876">
+    <state x="51" y="30" key="SettingsEditor/51.27.1309.741@51.27.1309.741" timestamp="1576503499459" />
+    <state x="540" y="295" width="299" height="200" key="WebDeployment.AddServerDialog.v.1" timestamp="1576502468578">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1575335889876" />
+    <state x="540" y="295" width="299" height="200" key="WebDeployment.AddServerDialog.v.1/51.27.1309.741@51.27.1309.741" timestamp="1576502468578" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576594588590">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1576594588590" />
   </component>
 </project>

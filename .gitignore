@@ -5,6 +5,7 @@
 /vendor
 composer.lock
 .env
+/.env.testing
 .idea
 .idea/workspace.xml
 _ide_helper.php
