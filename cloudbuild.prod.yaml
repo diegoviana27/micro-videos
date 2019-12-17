@@ -1,0 +1,58 @@
+steps:
+
+- id: "Rodando docker compose"
+  name: "gcr.io/$PROJECT_ID/docker-compose:1.24.0"
+  args: ["-f","docker-compose.prod.yaml","up","-d"]
+
+- id: "Rodando docker ps"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["ps"]
+
+- id: "Instalando docker compose"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["exec", "-t", "app", "composer", "install" ]
+
+- id: "Copiando .env"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["exec", "-t", "app", "cp", ".env.example", ".env" ]
+
+- id: "Rodando Key:generate"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["exec", "-t", "app", "php", "/var/www/artisan", "key:generate" ]
+
+- id: "Rodando migrations"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["exec", "-t", "app", "php", "/var/www/artisan", "migrate" ]
+
+- id: "Rodando phpunit"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["exec", "-t", "app", "php", "/var/www/vendor/bin/phpunit", "-c", "/var/www/phpunit.xml" ]
+
+- id: "Building image from Dockerfile.prod"
+  name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/app-laravel:$SHORT_SHA', '-f', 'Dockerfile.prod', '.']
+
+- id: "Pushing image"
+  name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/app-laravel:$SHORT_SHA']
+
+- id: "Adjusting deployment file - k8s"
+  name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: '/bin/sh'
+  args:
+    - '-c'
+    - |
+      sed 's#img-app-deployment#gcr.io/$PROJECT_ID/app-laravel:$SHORT_SHA#g' k8s/app/deployment.yaml > k8s/app/deployment-new.yaml;
+      cat k8s/app/deployment-new.yaml;
+
+- id: 'Deploying k8s'
+  name: 'gcr.io/cloud-builders/kubectl'
+  args:
+    - 'apply'
+    - '-f'
+    - 'k8s/app/deployment-new.yaml'
+  env:
+    - 'CLOUDSDK_COMPUTE_ZONE=us-central1'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-docker-laravel'
+
+
