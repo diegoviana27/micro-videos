@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -139,22 +140,15 @@
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.docker/app" />
       <recent name="$PROJECT_DIR$/database/seeds" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
-    <configuration name="CategoryControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CategoryControllerTest.testInvalidationData" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testInvalidationData" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CategoryControllerTest.testShow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testShow" scope="Method" />
+    <configuration name="CategoryControllerTest.testDestroy" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testDestroy" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="CategoryControllerTest.testStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -165,25 +159,33 @@
       <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testUpdate" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="GenreControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenreControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" method="testUpdate" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="/opt/project/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.CategoryControllerTest" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testInvalidationData" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testShow" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
       <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
-      <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.CategoryControllerTest.testDestroy" />
+      <item itemvalue="PHPUnit.GenreControllerTest" />
+      <item itemvalue="PHPUnit.GenreControllerTest.testUpdate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.GenreControllerTest.testUpdate" />
+        <item itemvalue="PHPUnit.GenreControllerTest" />
+        <item itemvalue="PHPUnit.CategoryControllerTest.testDestroy" />
         <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
         <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testInvalidationData" />
-        <item itemvalue="PHPUnit.CategoryControllerTest" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testShow" />
       </list>
     </recent_temporary>
   </component>
@@ -274,22 +276,22 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1576270095554" />
-    <state width="1263" height="129" key="GridCell.Tab.0.bottom" timestamp="1576619045306">
+    <state width="1263" height="228" key="GridCell.Tab.0.bottom" timestamp="1576672710525">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576619045306" />
-    <state width="1263" height="129" key="GridCell.Tab.0.center" timestamp="1576619045305">
+    <state width="1263" height="228" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576672710525" />
+    <state width="1263" height="228" key="GridCell.Tab.0.center" timestamp="1576672710524">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1576619045305" />
-    <state width="1263" height="129" key="GridCell.Tab.0.left" timestamp="1576619045305">
+    <state width="1263" height="228" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1576672710524" />
+    <state width="1263" height="228" key="GridCell.Tab.0.left" timestamp="1576672710521">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1576619045305" />
-    <state width="1263" height="129" key="GridCell.Tab.0.right" timestamp="1576619045305">
+    <state width="1263" height="228" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1576672710521" />
+    <state width="1263" height="228" key="GridCell.Tab.0.right" timestamp="1576672710524">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="129" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1576619045305" />
+    <state width="1263" height="228" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1576672710524" />
     <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576527235863">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
