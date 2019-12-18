@@ -4,10 +4,10 @@
 /storage/*.key
 /vendor
 composer.lock
-.env
+/.env
 /.env.testing
 .idea
-.idea/*.*
+/.idea/*.*
 _ide_helper.php
 _ide_helper_models.php
 .env.backup
