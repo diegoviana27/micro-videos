@@ -7,7 +7,7 @@ composer.lock
 .env
 /.env.testing
 .idea
-.idea/workspace.xml
+.idea/*.*
 _ide_helper.php
 _ide_helper_models.php
 .env.backup
