@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/BasicCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/BasicCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/BasicCrudControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/BasicCrudControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Traits/TestValidations.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Traits/TestValidations.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,24 +151,24 @@
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration name="BasicCrudControllerTest.testIndex" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\BasicCrudControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/BasicCrudControllerTest.php" method="testIndex" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BasicCrudControllerTest.testInvalidationDataInStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\BasicCrudControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/BasicCrudControllerTest.php" method="testInvalidationDataInStore" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="CategoryControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testIndex" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testIndex" scope="Method" />
+    <configuration name="CategoryControllerTest.testStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testStore" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testShow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testShow" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GenreControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GenreControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" method="testUpdate" scope="Method" />
+    <configuration name="CategoryControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testUpdate" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -177,18 +177,18 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testIndex" />
       <item itemvalue="PHPUnit.CategoryControllerTest" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testShow" />
-      <item itemvalue="PHPUnit.GenreControllerTest" />
-      <item itemvalue="PHPUnit.GenreControllerTest.testUpdate" />
+      <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
+      <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
+      <item itemvalue="PHPUnit.BasicCrudControllerTest.testIndex" />
+      <item itemvalue="PHPUnit.BasicCrudControllerTest.testInvalidationDataInStore" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.GenreControllerTest.testUpdate" />
-        <item itemvalue="PHPUnit.GenreControllerTest" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testShow" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testIndex" />
+        <item itemvalue="PHPUnit.BasicCrudControllerTest.testInvalidationDataInStore" />
+        <item itemvalue="PHPUnit.BasicCrudControllerTest.testIndex" />
+        <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
+        <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
         <item itemvalue="PHPUnit.CategoryControllerTest" />
       </list>
     </recent_temporary>
@@ -226,7 +226,12 @@
       <workItem from="1576500733699" duration="10116000" />
       <workItem from="1576594581678" duration="17246000" />
       <workItem from="1576696499263" duration="32521000" />
-      <workItem from="1577712089983" duration="4448000" />
+      <workItem from="1577712089983" duration="9294000" />
+      <workItem from="1577974892398" duration="1145000" />
+      <workItem from="1577976164657" duration="113000" />
+      <workItem from="1577976330297" duration="1765000" />
+      <workItem from="1577979000661" duration="1772000" />
+      <workItem from="1577985468923" duration="1390000" />
     </task>
     <servers />
   </component>
@@ -286,22 +291,22 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1576270095554" />
-    <state width="1263" height="261" key="GridCell.Tab.0.bottom" timestamp="1577717733790">
+    <state width="1263" height="208" key="GridCell.Tab.0.bottom" timestamp="1577986902616">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="261" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1577717733790" />
-    <state width="1263" height="261" key="GridCell.Tab.0.center" timestamp="1577717733790">
+    <state width="1263" height="208" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1577986902616" />
+    <state width="1263" height="208" key="GridCell.Tab.0.center" timestamp="1577986902614">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="261" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1577717733790" />
-    <state width="1263" height="261" key="GridCell.Tab.0.left" timestamp="1577717733789">
+    <state width="1263" height="208" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1577986902614" />
+    <state width="1263" height="208" key="GridCell.Tab.0.left" timestamp="1577986902612">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="261" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1577717733789" />
-    <state width="1263" height="261" key="GridCell.Tab.0.right" timestamp="1577717733790">
+    <state width="1263" height="208" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1577986902612" />
+    <state width="1263" height="208" key="GridCell.Tab.0.right" timestamp="1577986902615">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="261" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1577717733790" />
+    <state width="1263" height="208" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1577986902615" />
     <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576760682034">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
@@ -334,10 +339,10 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="540" y="295" width="299" height="200" key="WebDeployment.AddServerDialog.v.1/51.27.1309.741@51.27.1309.741" timestamp="1576502468578" />
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577712091151">
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577985468518">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1577712091151" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1577985468518" />
     <state x="369" y="175" key="run.anything.popup" timestamp="1576614033213">
       <screen x="51" y="27" width="1309" height="741" />
     </state>

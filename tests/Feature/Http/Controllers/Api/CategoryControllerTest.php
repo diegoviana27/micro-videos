@@ -92,7 +92,7 @@ class CategoryControllerTest extends TestCase
             'is_active' => true
         ];
 
-        //$this->assertUpdate($data, $data + ['deleted_at']);
+        $this->assertUpdate($data, $data + ['deleted_at' => null]);
 
 
         $response = $this->json(

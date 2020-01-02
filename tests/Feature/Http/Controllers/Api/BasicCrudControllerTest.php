@@ -33,7 +33,6 @@ class BasicCrudControllerTest extends TestCase
                 'description' => 'test_description'
             ]);
 
-
             $result = $this->controller->index()->toArray();
             $this->assertEquals([$category->toArray()],$result);
         }
