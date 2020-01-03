@@ -8,6 +8,7 @@ use Illuminate\Foundation\Testing\TestResponse;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Tests\Traits\TestValidations;
 
 class GenreControllerTest extends TestCase
 {
@@ -57,18 +58,17 @@ class GenreControllerTest extends TestCase
 
         $this->assertInvalidationMax($response);
         $this->assertInvalidationBoolean($response);
-
-
     }
 
     private function  assertInvalidationRequired(TestResponse $response ){
-        $response
-            ->assertStatus(422)
-            ->assertJsonValidationErrors(['name'])
-            ->assertJsonMissingValidationErrors(['is_active'])
-            ->assertJsonFragment([
-                \Lang::get('validation.required', ['attribute' => 'name'])
-            ]);
+
+            $response
+                ->assertStatus(422)
+                ->assertJsonValidationErrors(['name'])
+                ->assertJsonMissingValidationErrors(['is_active'])
+                ->assertJsonFragment([
+                    \Lang::get('validation.required', ['attribute' => 'name'])
+                ]);
     }
 
     private function  assertInvalidationMax(TestResponse $response ){

@@ -4,8 +4,9 @@
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/GenreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Traits/TestSaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Traits/TestSaves.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,36 +136,39 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/Feature" />
       <recent name="$PROJECT_DIR$/tests/Unit/Models" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/.docker/app" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/database/factories" />
       <recent name="$PROJECT_DIR$/database/seeds" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
-    <configuration name="CategoryControllerTest.testDestroy" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testDestroy" scope="Method" />
+    <configuration name="CastMemberControllerTest.testDestroy" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testDestroy" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testStore" scope="Method" />
+    <configuration name="CastMemberControllerTest.testInvalidationData" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testInvalidationData" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CategoryControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CategoryControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" method="testUpdate" scope="Method" />
+    <configuration name="CastMemberControllerTest.testShow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testShow" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="GenreControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" scope="Class" />
+    <configuration name="CastMemberControllerTest.testStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testStore" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="GenreControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\GenreControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/GenreControllerTest.php" method="testUpdate" scope="Method" />
+    <configuration name="CastMemberControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testUpdate" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -173,19 +177,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
-      <item itemvalue="PHPUnit.CategoryControllerTest.testDestroy" />
-      <item itemvalue="PHPUnit.GenreControllerTest" />
-      <item itemvalue="PHPUnit.GenreControllerTest.testUpdate" />
+      <item itemvalue="PHPUnit.CastMemberControllerTest.testInvalidationData" />
+      <item itemvalue="PHPUnit.CastMemberControllerTest.testShow" />
+      <item itemvalue="PHPUnit.CastMemberControllerTest.testStore" />
+      <item itemvalue="PHPUnit.CastMemberControllerTest.testUpdate" />
+      <item itemvalue="PHPUnit.CastMemberControllerTest.testDestroy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.GenreControllerTest.testUpdate" />
-        <item itemvalue="PHPUnit.GenreControllerTest" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testDestroy" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testUpdate" />
-        <item itemvalue="PHPUnit.CategoryControllerTest.testStore" />
+        <item itemvalue="PHPUnit.CastMemberControllerTest.testUpdate" />
+        <item itemvalue="PHPUnit.CastMemberControllerTest.testStore" />
+        <item itemvalue="PHPUnit.CastMemberControllerTest.testInvalidationData" />
+        <item itemvalue="PHPUnit.CastMemberControllerTest.testDestroy" />
+        <item itemvalue="PHPUnit.CastMemberControllerTest.testShow" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +225,19 @@
       <workItem from="1576265108388" duration="2137000" />
       <workItem from="1576500733699" duration="10116000" />
       <workItem from="1576594581678" duration="17246000" />
+      <workItem from="1576696499263" duration="32521000" />
+      <workItem from="1577712089983" duration="9294000" />
+      <workItem from="1577974892398" duration="1145000" />
+      <workItem from="1577976164657" duration="113000" />
+      <workItem from="1577976330297" duration="1765000" />
+      <workItem from="1577979000661" duration="1772000" />
+      <workItem from="1577985468923" duration="1779000" />
+      <workItem from="1577987306240" duration="1785000" />
+      <workItem from="1577989352803" duration="1796000" />
+      <workItem from="1578065017403" duration="1749000" />
+      <workItem from="1578066803985" duration="1762000" />
+      <workItem from="1578068637044" duration="1641000" />
+      <workItem from="1578071047867" duration="342000" />
     </task>
     <servers />
   </component>
@@ -260,10 +277,14 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="389" y="202" width="674" height="390" key="#com.intellij.fileTypes.FileTypeChooser/51.27.1309.741@51.27.1309.741" timestamp="1576618182385" />
-    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576597862155">
+    <state x="430" y="27" width="531" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576769186900">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/51.27.1309.741@51.27.1309.741" timestamp="1576597862155" />
+    <state x="430" y="27" width="531" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/51.27.1309.741@51.27.1309.741" timestamp="1576769186900" />
+    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577716261005">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/51.27.1309.741@51.27.1309.741" timestamp="1577716261005" />
     <state x="402" y="272" width="596" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1" timestamp="1575392599059">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
@@ -276,42 +297,46 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1576270095554" />
-    <state width="1263" height="228" key="GridCell.Tab.0.bottom" timestamp="1576672710525">
+    <state width="1263" height="344" key="GridCell.Tab.0.bottom" timestamp="1578071245241">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="228" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576672710525" />
-    <state width="1263" height="228" key="GridCell.Tab.0.center" timestamp="1576672710524">
+    <state width="1263" height="344" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1578071245241" />
+    <state width="1263" height="344" key="GridCell.Tab.0.center" timestamp="1578071245237">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="228" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1576672710524" />
-    <state width="1263" height="228" key="GridCell.Tab.0.left" timestamp="1576672710521">
+    <state width="1263" height="344" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1578071245237" />
+    <state width="1263" height="344" key="GridCell.Tab.0.left" timestamp="1578071245236">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="228" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1576672710521" />
-    <state width="1263" height="228" key="GridCell.Tab.0.right" timestamp="1576672710524">
+    <state width="1263" height="344" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1578071245236" />
+    <state width="1263" height="344" key="GridCell.Tab.0.right" timestamp="1578071245240">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="228" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1576672710524" />
-    <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576527235863">
+    <state width="1263" height="344" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1578071245240" />
+    <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576760682034">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="219" key="GridCell.Tab.1.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576527235863" />
-    <state width="1263" height="219" key="GridCell.Tab.1.center" timestamp="1576527235861">
+    <state width="1263" height="219" key="GridCell.Tab.1.bottom/51.27.1309.741@51.27.1309.741" timestamp="1576760682034" />
+    <state width="1263" height="219" key="GridCell.Tab.1.center" timestamp="1576760682033">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="219" key="GridCell.Tab.1.center/51.27.1309.741@51.27.1309.741" timestamp="1576527235861" />
-    <state width="1263" height="219" key="GridCell.Tab.1.left" timestamp="1576527235859">
+    <state width="1263" height="219" key="GridCell.Tab.1.center/51.27.1309.741@51.27.1309.741" timestamp="1576760682033" />
+    <state width="1263" height="219" key="GridCell.Tab.1.left" timestamp="1576760682033">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="219" key="GridCell.Tab.1.left/51.27.1309.741@51.27.1309.741" timestamp="1576527235859" />
-    <state width="1263" height="219" key="GridCell.Tab.1.right" timestamp="1576527235861">
+    <state width="1263" height="219" key="GridCell.Tab.1.left/51.27.1309.741@51.27.1309.741" timestamp="1576760682033" />
+    <state width="1263" height="219" key="GridCell.Tab.1.right" timestamp="1576760682033">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="219" key="GridCell.Tab.1.right/51.27.1309.741@51.27.1309.741" timestamp="1576527235861" />
-    <state x="352" y="210" width="697" height="373" key="NewPhpClassDialog" timestamp="1575401741616">
+    <state width="1263" height="219" key="GridCell.Tab.1.right/51.27.1309.741@51.27.1309.741" timestamp="1576760682033" />
+    <state x="352" y="210" width="889" height="373" key="NewPhpClassDialog" timestamp="1576765329861">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="352" y="210" width="697" height="373" key="NewPhpClassDialog/51.27.1309.741@51.27.1309.741" timestamp="1575401741616" />
+    <state x="352" y="210" width="889" height="373" key="NewPhpClassDialog/51.27.1309.741@51.27.1309.741" timestamp="1576765329861" />
+    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1576682165256">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog/51.27.1309.741@51.27.1309.741" timestamp="1576682165256" />
     <state x="51" y="30" key="SettingsEditor" timestamp="1576503499459">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
@@ -320,10 +345,10 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="540" y="295" width="299" height="200" key="WebDeployment.AddServerDialog.v.1/51.27.1309.741@51.27.1309.741" timestamp="1576502468578" />
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576594588590">
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577989354718">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1576594588590" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1577989354718" />
     <state x="369" y="175" key="run.anything.popup" timestamp="1576614033213">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
