@@ -84,7 +84,6 @@ class BasicCrudControllerTest extends TestCase
         $reflectionMethod = $reflectionClass->getMethod('findOrFail');
         $reflectionMethod->setAccessible(true);
         $result = $reflectionMethod->invokeArgs($this->controller, [0]);
-       // $this->assertInstanceOf(CategoryStub::class, $result);
     }
 
     public function testShow(){
@@ -106,7 +105,7 @@ class BasicCrudControllerTest extends TestCase
         ->once()
         ->andReturn([
             'name' => 'test_name',
-            'description' => 'test_description'
+            'description' => 'test_description_updated'
         ]);
 
         $result = $this->controller->update($request, $category->id);
