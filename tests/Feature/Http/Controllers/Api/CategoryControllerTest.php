@@ -65,7 +65,7 @@ class CategoryControllerTest extends TestCase
         $data = [
             'name' => 'test'
         ];
-        $response = $this->assertSorte($data, $data + ['description' => null, 'is_active' => true, 'deleted_at' => null]);
+        $response = $this->assertStore($data, $data + ['description' => null, 'is_active' => true, 'deleted_at' => null]);
         $response->assertJsonStructure([
             'created_at', 'updated_at'
         ]);
@@ -76,7 +76,7 @@ class CategoryControllerTest extends TestCase
             'is_active' => false
         ];
 
-        $this->assertSorte($data, $data + ['description' => 'alguma coisa', 'is_active' => false]);
+        $this->assertStore($data, $data + ['description' => 'alguma coisa', 'is_active' => false]);
     }
 
     public function testUpdate(){

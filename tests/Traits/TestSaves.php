@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace Tests\Traits;
 
-
 use Illuminate\Foundation\Testing\TestResponse;
 
 trait TestSaves
@@ -14,7 +13,7 @@ trait TestSaves
 
     protected abstract function routeUpdate();
 
-    protected function assertSorte(array $sendData, array $testDatabase, array $testJsonData = null) : TestResponse {
+    protected function assertStore(array $sendData, array $testDatabase, array $testJsonData = null) : TestResponse {
         $response = $this->json('POST', $this->routeStore(), $sendData);
         if($response->status() !== 201){
             throw new \Exception("Response status must be 201, given {$response->status()}:\n{$response->content()}");
