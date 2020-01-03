@@ -10,11 +10,11 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-# Classe específica                 - vendor/bin/phpunit tests/Unit/CategoryTest.php
-# Classe específico em um arquivo   - vendor/bin/phpunit --filter testIfUseTraits tests/Unit/CategoryTest.php
-# Método específico em uma classe   - vendor/bin/phpunit --filter CategoryTest::testIfUseTraits
+# Classe específica                 - vendor/bin/phpunit tests/Unit/CategoryUnitTest.php
+# Classe específico em um arquivo   - vendor/bin/phpunit --filter testIfUseTraits tests/Unit/CategoryUnitTest.php
+# Método específico em uma classe   - vendor/bin/phpunit --filter CategoryUnitTest::testIfUseTraits
 
-class CategoryTest extends TestCase
+class CategoryUnitTest extends TestCase
 {
 
     private $category;

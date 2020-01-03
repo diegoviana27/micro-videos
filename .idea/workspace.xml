@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6410773a-86e2-44b8-91f8-ce6624bfdefb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CategoryControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Traits/TestSaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Traits/TestSaves.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CastMember.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CastMember.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Models/CategoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Models/CategoryUnitTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Models/GenreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Models/GenreUnitTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,11 +129,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Unit/Models" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Unit/Models" />
+      <recent name="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/database/factories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/tests/Feature" />
@@ -142,33 +148,26 @@
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-      <recent name="$PROJECT_DIR$/database/factories" />
-      <recent name="$PROJECT_DIR$/database/seeds" />
-    </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
-    <configuration name="CastMemberControllerTest.testDestroy" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testDestroy" scope="Method" />
+    <configuration name="CastMemberUnitTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\CastMemberUnitTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/CastMemberUnitTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CastMemberControllerTest.testInvalidationData" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testInvalidationData" scope="Method" />
+    <configuration name="CastMemberUnitTest.testCasts" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\CastMemberUnitTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/CastMemberUnitTest.php" method="testCasts" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CastMemberControllerTest.testShow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testShow" scope="Method" />
+    <configuration name="CastMemberUnitTest.testDatesAttribute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\CastMemberUnitTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/CastMemberUnitTest.php" method="testDatesAttribute" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CastMemberControllerTest.testStore" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testStore" scope="Method" />
+    <configuration name="CastMemberUnitTest.testFillableAttribute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\CastMemberUnitTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/CastMemberUnitTest.php" method="testFillableAttribute" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CastMemberControllerTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\Api\CastMemberControllerTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/CastMemberControllerTest.php" method="testUpdate" scope="Method" />
+    <configuration name="CastMemberUnitTest.testIfUseTraits" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\CastMemberUnitTest" configuration_file="/opt/project/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/CastMemberUnitTest.php" method="testIfUseTraits" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -177,19 +176,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.CastMemberControllerTest.testInvalidationData" />
-      <item itemvalue="PHPUnit.CastMemberControllerTest.testShow" />
-      <item itemvalue="PHPUnit.CastMemberControllerTest.testStore" />
-      <item itemvalue="PHPUnit.CastMemberControllerTest.testUpdate" />
-      <item itemvalue="PHPUnit.CastMemberControllerTest.testDestroy" />
+      <item itemvalue="PHPUnit.CastMemberUnitTest.testIfUseTraits" />
+      <item itemvalue="PHPUnit.CastMemberUnitTest.testFillableAttribute" />
+      <item itemvalue="PHPUnit.CastMemberUnitTest.testDatesAttribute" />
+      <item itemvalue="PHPUnit.CastMemberUnitTest.testCasts" />
+      <item itemvalue="PHPUnit.CastMemberUnitTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.CastMemberControllerTest.testUpdate" />
-        <item itemvalue="PHPUnit.CastMemberControllerTest.testStore" />
-        <item itemvalue="PHPUnit.CastMemberControllerTest.testInvalidationData" />
-        <item itemvalue="PHPUnit.CastMemberControllerTest.testDestroy" />
-        <item itemvalue="PHPUnit.CastMemberControllerTest.testShow" />
+        <item itemvalue="PHPUnit.CastMemberUnitTest" />
+        <item itemvalue="PHPUnit.CastMemberUnitTest.testCasts" />
+        <item itemvalue="PHPUnit.CastMemberUnitTest.testDatesAttribute" />
+        <item itemvalue="PHPUnit.CastMemberUnitTest.testFillableAttribute" />
+        <item itemvalue="PHPUnit.CastMemberUnitTest.testIfUseTraits" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +237,8 @@
       <workItem from="1578066803985" duration="1762000" />
       <workItem from="1578068637044" duration="1641000" />
       <workItem from="1578071047867" duration="342000" />
+      <workItem from="1578072855282" duration="1008000" />
+      <workItem from="1578076194672" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -277,10 +278,10 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="389" y="202" width="674" height="390" key="#com.intellij.fileTypes.FileTypeChooser/51.27.1309.741@51.27.1309.741" timestamp="1576618182385" />
-    <state x="430" y="27" width="531" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576769186900">
+    <state x="430" y="27" width="531" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578076436830">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="430" y="27" width="531" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/51.27.1309.741@51.27.1309.741" timestamp="1576769186900" />
+    <state x="430" y="27" width="531" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/51.27.1309.741@51.27.1309.741" timestamp="1578076436830" />
     <state x="438" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577716261005">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
@@ -297,22 +298,22 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1576270095554" />
-    <state width="1263" height="344" key="GridCell.Tab.0.bottom" timestamp="1578071245241">
+    <state width="1263" height="253" key="GridCell.Tab.0.bottom" timestamp="1578077200848">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="344" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1578071245241" />
-    <state width="1263" height="344" key="GridCell.Tab.0.center" timestamp="1578071245237">
+    <state width="1263" height="253" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1578077200848" />
+    <state width="1263" height="253" key="GridCell.Tab.0.center" timestamp="1578077200847">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="344" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1578071245237" />
-    <state width="1263" height="344" key="GridCell.Tab.0.left" timestamp="1578071245236">
+    <state width="1263" height="253" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1578077200847" />
+    <state width="1263" height="253" key="GridCell.Tab.0.left" timestamp="1578077200847">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="344" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1578071245236" />
-    <state width="1263" height="344" key="GridCell.Tab.0.right" timestamp="1578071245240">
+    <state width="1263" height="253" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1578077200847" />
+    <state width="1263" height="253" key="GridCell.Tab.0.right" timestamp="1578077200848">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="344" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1578071245240" />
+    <state width="1263" height="253" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1578077200848" />
     <state width="1263" height="219" key="GridCell.Tab.1.bottom" timestamp="1576760682034">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
@@ -337,10 +338,10 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="501" y="322" width="399" height="149" key="NewPhpFileDialog/51.27.1309.741@51.27.1309.741" timestamp="1576682165256" />
-    <state x="51" y="30" key="SettingsEditor" timestamp="1576503499459">
+    <state x="51" y="30" key="SettingsEditor" timestamp="1578073262546">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state x="51" y="30" key="SettingsEditor/51.27.1309.741@51.27.1309.741" timestamp="1576503499459" />
+    <state x="51" y="30" key="SettingsEditor/51.27.1309.741@51.27.1309.741" timestamp="1578073262546" />
     <state x="540" y="295" width="299" height="200" key="WebDeployment.AddServerDialog.v.1" timestamp="1576502468578">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
@@ -349,6 +350,10 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="361" y="224" key="com.intellij.ide.util.TipDialog/51.27.1309.741@51.27.1309.741" timestamp="1577989354718" />
+    <state x="306" y="127" width="1043" height="535" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1578073253622">
+      <screen x="51" y="27" width="1309" height="741" />
+    </state>
+    <state x="306" y="127" width="1043" height="535" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/51.27.1309.741@51.27.1309.741" timestamp="1578073253622" />
     <state x="369" y="175" key="run.anything.popup" timestamp="1576614033213">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
