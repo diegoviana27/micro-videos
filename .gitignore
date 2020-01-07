@@ -8,6 +8,9 @@ composer.lock
 /.env.testing
 .idea
 /.idea/*.*
+.idea/*.*
+.env
+micro-videos.iml
 _ide_helper.php
 _ide_helper_models.php
 .env.backup
