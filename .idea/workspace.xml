@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d29f0377-fda9-40b7-b5e7-17173ae53388" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/VideoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/VideoFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_03_194616_create_videos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_06_175606_create_category_video_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_06_180329_create_genre_video_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/VideosTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Exceptions/TestException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/VideoControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/Models/VideoUnitTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/micro-videos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_03_154637_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_03_154637_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_03_194616_create_genres_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_03_194616_create_genres_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_03_194616_create_cast_members_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_03_194616_create_cast_members_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +221,7 @@
       <workItem from="1578081434295" duration="1341000" />
       <workItem from="1578082939899" duration="599000" />
       <workItem from="1578183659693" duration="276000" />
-      <workItem from="1578307254113" duration="24852000" />
+      <workItem from="1578307254113" duration="25286000" />
     </task>
     <servers />
   </component>
@@ -280,22 +257,22 @@
       <screen x="51" y="27" width="1309" height="741" />
     </state>
     <state x="488" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1309.741@51.27.1309.741" timestamp="1578081607568" />
-    <state width="1263" height="180" key="GridCell.Tab.0.bottom" timestamp="1578426654358">
+    <state width="1263" height="180" key="GridCell.Tab.0.bottom" timestamp="1578427385336">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="180" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1578426654358" />
-    <state width="1263" height="180" key="GridCell.Tab.0.center" timestamp="1578426654357">
+    <state width="1263" height="180" key="GridCell.Tab.0.bottom/51.27.1309.741@51.27.1309.741" timestamp="1578427385336" />
+    <state width="1263" height="180" key="GridCell.Tab.0.center" timestamp="1578427385335">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="180" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1578426654357" />
-    <state width="1263" height="180" key="GridCell.Tab.0.left" timestamp="1578426654357">
+    <state width="1263" height="180" key="GridCell.Tab.0.center/51.27.1309.741@51.27.1309.741" timestamp="1578427385335" />
+    <state width="1263" height="180" key="GridCell.Tab.0.left" timestamp="1578427385334">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="180" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1578426654357" />
-    <state width="1263" height="180" key="GridCell.Tab.0.right" timestamp="1578426654357">
+    <state width="1263" height="180" key="GridCell.Tab.0.left/51.27.1309.741@51.27.1309.741" timestamp="1578427385334" />
+    <state width="1263" height="180" key="GridCell.Tab.0.right" timestamp="1578427385336">
       <screen x="51" y="27" width="1309" height="741" />
     </state>
-    <state width="1263" height="180" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1578426654357" />
+    <state width="1263" height="180" key="GridCell.Tab.0.right/51.27.1309.741@51.27.1309.741" timestamp="1578427385336" />
     <state x="332" y="210" width="737" height="373" key="NewPhpClassDialog" timestamp="1578343893495">
       <screen x="51" y="27" width="1309" height="741" />
     </state>

@@ -11,6 +11,7 @@ composer.lock
 .idea/*.*
 .env
 micro-videos.iml
+.idea/workspace.xml
 _ide_helper.php
 _ide_helper_models.php
 .env.backup
