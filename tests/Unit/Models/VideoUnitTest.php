@@ -52,7 +52,6 @@ class VideoUnitTest extends TestCase
 
     public function testCasts()
     {
-        //$casts = ['id' => 'string', 'is_active' => 'boolean'];
         $casts = [
             'id' => 'string',
             'opened' => 'boolean',
